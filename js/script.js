@@ -20,6 +20,7 @@ function setup()	{
 
 	bins = pow(2, 7);
 	fft = new p5.FFT(0.5, bins);
+	fft.setInput(mic);
 
 	// amplitude = new p5.Amplitude(0.5);
 	// sound.amp(1);
